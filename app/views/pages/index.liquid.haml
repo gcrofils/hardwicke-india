@@ -1,0 +1,24 @@
+---
+title: Home page
+slug: index
+position: 0
+listed: true
+published: true
+is_layout: false
+---
+
+{% extends layouts/page %}
+
+{% block content %}
+
+.contents{'ng-controller' => 'HomeController as home'}
+  %h1 {$= home.title $}
+  %p {$= home.body $}
+
+
+{{ 'angular.min.js' | javascript_tag }}
+{{ 'hardwicke.js' | javascript_tag }}
+
+
+
+{% endblock %}

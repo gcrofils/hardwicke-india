@@ -1,0 +1,5 @@
+development:
+  host: http://india.local.dev:3000
+  handle: india
+  email: gilles@siz.yt
+  api_key: 1d9cfc099ad65b7dbc93748ac24f31707d995a5c

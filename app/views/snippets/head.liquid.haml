@@ -1,0 +1,8 @@
+%head
+  %meta{charset: 'utf-8'}
+  %meta{content: 'text/html; charset=UTF-8', 'http-equiv' => 'content-type'}
+  %meta{content: 'IE=edge', 'http-equiv' => 'X-UA-Compatible'}
+  %meta{content: 'width=device-width, initial-scale=1', name: 'viewport'}
+  {% seo %}
+  %link{href: "{{ host }}{% path_to page %}", rel: 'canonical'}
+  {{ 'bootstrap.min.css' | stylesheet_tag }}
